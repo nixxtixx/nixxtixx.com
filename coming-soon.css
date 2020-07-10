@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover
+}
+
+
+.button{
+    padding-top: 4%;
+    
+    
+}
+
+
+.hero{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    
+}
