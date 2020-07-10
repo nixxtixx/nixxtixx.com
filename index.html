@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset = "utf-8">
+      <meta name="description" content="All about Nina Tippett">
+        <meta name="author" content="Nina  Tippett">
+        <link rel="stylesheet" href="main.css" >
+            <title>"Nina Tippett"</title>   
+        </head>
+        
+        
+    <body>
+        
+        <header class="top">
+        <h1>Nina Tippett</h1>
+            </header>
+        
+        <nav>
+            
+            <a href="index.html">Home</a>
+            <a href="content.html">Content</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+            
+            </nav>
+       
+        
+        
+        <main class="container">
+      <div class="mySlides bg-img img1 fade "></div>
+      <div class="mySlides bg-img img2 fade "></div>
+      <div class="mySlides bg-img img3 fade "></div>
+        </main>
+      
+        <script>
+          /*slideshow*/
+            var myIndex = 0;
+            slide_show();
+
+            function slide_show() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+    }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(slide_show, 4000);    
+}
+
+
+            window.onload = slide_show; //when the page loads pictures function runs(slideshow)
+        </script>
+        
+        <section class="about">
+        <h1>Hello!</h1>
+        <p>My name is Nina I am a Full-Stack Devloper in training. My journey started at the age of 14 with my first web dev class.<br> After I fell in love with programing and the web development world. I even moved over to a little photoshopping<br>I'm always looking for new innovative ways to learn. I will be show casing my talent here with new skills I aquire.<br> This way you get to see my passion in action.</p>
+        </section>
+
+
+        
+    </body>
+</html>
