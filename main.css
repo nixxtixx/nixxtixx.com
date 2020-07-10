@@ -1,0 +1,95 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+h1{text-align: center;}
+
+            h1 { font-family: Snell Roundhand, cursive; 
+            font-size: 40px; 
+            font-style: normal; 
+            font-variant: normal; 
+            font-weight: 100; 
+            line-height: 40px; }
+
+.top{
+    padding-top: 7px; 
+}
+
+
+/*Main menu*/
+nav{text-align: center;
+padding: 15px 4px;
+overflow: hidden;
+
+}
+
+
+
+nav a {
+float: left;   
+display: block;
+width: 25%;
+text-decoration: none;
+border-bottom: 3px solid;
+border-top: 3px solid;
+color: black;
+font-size: 20px;
+  
+}
+
+nav a:hover {
+  border-bottom: 3px solid #ad7cb6;
+  border-top: 3px solid #ad7cb6;
+}
+
+
+
+.about p{
+    text-align: center;
+    font-size:15px;
+    text-indent: 50px;
+  letter-spacing: 1px;
+}
+
+
+
+
+         /*Image design*/
+                  .bg-img {
+                    padding-bottom: 31%;
+                      
+                      position: relative;
+                      overflow: scroll;
+                   /*center/scaling image
+                      */
+                  background-position: center;
+                      
+                    top: 16px;
+                  background-repeat: no-repeat;
+                  background-size:contain;
+                }
+                
+
+/* Images being used*/
+                .img1 {
+                    background-image: url("https://i.ibb.co/687WfD3/nixxtixx-20200625-125145-2-2.jpg"); }
+                .img2 { background-image:  url("https://i.ibb.co/6FMf9Fm/codeninjascary-20200329-235735-0-3.jpg");}
+                .img3 { background-image: url("https://i.ibb.co/HBg9Cvw/nixxtixx-20200625-125145-6-2.jpg"); }
+             
+/* Fading Effect*/
+                .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .7} 
+  to {opacity: 1}
+}
